@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: #010B14;
+    color: #ffffff;
+    font-family: "Rubik", sans-serif;
+}
+
+.cabecalho {
+    backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #9b00ba;
+    z-index: 1;
+}
+
+.cabecalho .logo,
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho .logo button,
+.btn-inscreva-se {
+    padding: 6px;
+    background: linear-gradient(45deg, #9b00ba 36%, #01e1ba 100%);
+    border-radius: 15px;
+    margin-right: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    color: #ffffff;
+}
+
+.cabecalho .logo h1 {
+    background: -webkit-linear-gradient(180deg, #9b00ba 36%, #01e1ba 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 100;
+}
+
+.cabecalho .menu ul {
+    display: flex;
+    gap: 30px;
+}
+
+.home {
+    min-height: 645px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home .img-fundo {
+    width: 100%;
+    opacity: 0.7;
+}
+
+.home .informacoes {
+    backdrop-filter: blur(12px);
+    position: absolute;
+    top: 150px;
+    padding: 20px;
+    border-radius: 20px;
+    align-content: center;
+    max-width: 600px;
+    font-size: 1.3em;
+}
+
+.home .informacoes ul {
+    gap: 30px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home .informacoes ul li {
+    font-size: 0.75em;
+    width: 100px;
+}
+
+.home .informacoes ul li p span {
+    font-weight: bolder;
+}
+
+.home .informacoes h2,
+p {
+    margin-bottom: 20px;
+}
+
+/* ----------------- */
+
+.sobre {
+    padding-top: 30px;
+    background: radial-gradient(circle, #04192b 0%, #000000 67%);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sobre .informacoes-curso {
+    align-content: center;
+    max-width: 500px;
+    font-size: 1.3em;
+}
+
+.sobre .informacoes-curso h2,
+p {
+    margin-bottom: 20px;
+}
+
+.grade-do-curso {
+    background: linear-gradient(180deg, #000000b3 32%, #000000b3 67%, #1b0020 87%);
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.grade-do-curso .grade {
+    display: grid;
+    padding: 3em;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grade-do-curso .grade li {
+    background-color: #0022e044;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px 10px;
+    font-size: 1.1em;
+}
+
+.grade-do-curso .grade h3 {
+    margin-bottom: 10px;
+    color: #0023E0;
+}
+
+.propaganda {
+    background: linear-gradient(5deg, #04192b 10%, #000000b3 32%, #000000b3 67%, #1b0020 87%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.propaganda .vantagens {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.propaganda .vantagens .vantagens-lista li {
+    background-color: #04192b;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.rodape {
+    padding: 15px 2px;
+    gap: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape img {
+    height: 30px;
+}
+
+.rodape .info-finais {
+    text-align: center;
+}
+
+.rodape img {
+    background-color: #01e1ba;
+    border-radius: 50%;
+    padding: 3px;
+}
+

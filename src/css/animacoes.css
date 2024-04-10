@@ -1,0 +1,29 @@
+a {
+    transition: 1s;
+}
+
+.cabecalho .menu ul li a:hover {
+    box-shadow: 0px 0px 10px 10px #34003f;
+    background-color: #34003f;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.btn-inscreva-se:hover {
+    box-shadow: 0px 0px 10px 10px #34003f;
+    transition: 0.5s;
+}
+
+.grade-do-curso .grade li {
+    transition: 1s;
+}
+
+.grade-do-curso .grade li:hover {
+    transform: scale(1.01);
+    transition: 0.25s;
+    box-shadow: 0px 0px 50px 10px #34003f;
+}
+
+.rodape img:hover {
+    box-shadow: 0px 0px 10px 5px #01e1bc79;
+}
